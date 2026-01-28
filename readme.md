@@ -167,7 +167,10 @@ ai-review-detector/
 
 ### API Screenshots
 
+#### API Presentation
 ![API](https://raw.githubusercontent.com/JulienRouillard/ai-review-detector/main/images/api_1.png)
+
+#### API Endpoints
 ![API](https://raw.githubusercontent.com/JulienRouillard/ai-review-detector/main/images/api_2.png)
 
 ### Video Demonstration
