@@ -3,13 +3,13 @@ import requests
 import pandas as pd
 import io
 
-st.set_page_config(page_title="AI Review Detector", page_icon="🤖")
+st.set_page_config(page_title="AI Content Detector", page_icon="🤖")
 
-st.title("🤖 AI Review Detector")
-st.markdown("**Détectez si un avis a été écrit par un humain ou généré par une IA**")
+st.title("🤖 AI Content Detector")
+st.markdown("**Détectez si un contenu a été écrit par un humain ou généré par une IA**")
 st.markdown("---")
 
-st.info("💡 Copiez-collez le texte de l'avis dans la zone ci-dessous et cliquez sur Analyser.")
+st.info("💡 Copiez-collez le texte dans la zone ci-dessous et cliquez sur Analyser.")
 
 text_input = st.text_area("Texte à analyser :", height=200)
 
@@ -27,7 +27,7 @@ if st.button("🔍 Analyser", type="primary"):
 # Section batch
 st.markdown("---")
 st.markdown("## 📁 Analyse par lot")
-st.markdown("**Analysez plusieurs avis en uploadant un fichier**")
+st.markdown("**Analysez plusieurs textes en uploadant un fichier**")
 
 uploaded_file = st.file_uploader(
     "Choisissez un fichier (CSV, Excel ou JSON)",

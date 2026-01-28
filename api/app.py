@@ -25,13 +25,13 @@ import os
 #══════════════════════════════════════════════════════════════════════════════════════
 
 description = """
-## AI Review Detector API
+## AI Content Detector API
 
-L'**AI Review Detector API** est une solution professionnelle de détection automatique des avis générés par intelligence artificielle.
+L'**AI Content Detector API** est une solution professionnelle de détection automatique des contenus générés par intelligence artificielle.
 
 ### 🎯 Objectif
 
-Cette API permet d'identifier si un avis client a été rédigé par un humain ou généré par une intelligence artificielle, 
+Cette API permet d'identifier si un contenu a été rédigé par un humain ou généré par une intelligence artificielle, 
 aidant ainsi les entreprises à maintenir l'authenticité de leurs plateformes d'évaluation.
 
 ### 🔬 Modèle de détection
@@ -75,11 +75,11 @@ Temps de réponse moyen : < XXXms (Reste à calculer)
 """
 
 app = FastAPI(
-    title="AI Review Detector API",
+    title="AI Content Detector API",
     description=description,
     version="1.0.0",
     contact={
-        "name": "AI Review Detector Team",
+        "name": "AI Content Detector Team",
         "email": "contact@aireviewdetector.com",
     }
 )
