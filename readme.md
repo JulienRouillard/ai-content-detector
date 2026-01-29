@@ -130,7 +130,6 @@ XGBClassifier(
   - File upload with batch processing
   - Results visualization and export
 
-**Current Status:** Local deployment only (Windows→Linux path compatibility issue in preprocessing pipeline)
 
 ---
 
@@ -176,14 +175,6 @@ ai-review-detector/
 ### Video Demonstration
 
 [![Watch Demo](https://img.shields.io/badge/▶️_Watch_Streamlit_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/MJafzeLzvXA)
-
----
-
-## 🔮 Future Improvements
-
-- Resolve Windows/Linux deployment compatibility for cloud hosting
-- Reduce feature dimensionality through importance analysis
-- Explore hybrid approach combining linguistic features with embeddings
 
 ---
 
