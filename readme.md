@@ -181,7 +181,7 @@ ai-review-detector/
 ## 👤 Contact
 
 **Julien Rouillard**  
-[GitHub](https://github.com/JulienRouillard) | [LinkedIn](#)
+[GitHub](https://github.com/JulienRouillard) | [LinkedIn](https://www.linkedin.com/in/julien-rouillard-a738a33a9/)
 
 ---
 
